@@ -1,0 +1,64 @@
+ <table class="table-bordered text-center">
+                <tr >
+                  <td class="col-md-1">Monday</td>
+                  <td class="col-md-1">Tuesday</td>
+                  <td class="col-md-1">Wednesday</td>
+                  <td class="col-md-1">Thursday</td>
+                  <td class="col-md-1">Friday</td>
+                  <td class="col-md-1">Satruday</td>
+                  <td class="col-md-1">Sunday</td>
+                </tr>
+                <tr>
+                  <td>
+                  <div >
+                  <% @monday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+                  <td>
+                  <div>
+                  <% @tuesday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+                  <td>
+                  <div>
+                  <% @wednesday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <% @thursday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                   <% @friday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <% @saturday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <% @sunday.each do |test| %>
+                  <div class="bordertable"><%= test.address%></div>
+                  <% end %>
+                  </div>
+                  </td>
+
+                </tr>
+
+              </table>

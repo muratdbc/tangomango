@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+
+
+
+    <!-- JS -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    </body>
+
+</html>
+<title>Tango Mango</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Bootstrap -->
+<!--   <link rel="stylesheet" href="assets/css/bootstrap-responsive.css" > -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/city.css">
+
+
+<!-- Fonts -->
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/city.css">
+
+<!-- JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+</head>
+<!-- <div class= "text-center col-sm-6 col-sm-offset-4"> -->
+
+<body>
+    <div class="header">
+        <nav class="container">
+            <div class="row navigation">
+                <div class="col-md-3 logo">
+                    <img src="images/logo.svg" alt="">
+                </div>
+                <div class="col-md-offset-5 col-md-3">
+                    <div class="input-group">
+                        <span class="input-group-addon">Welcome</span>
+                        <span type="text" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <!-- 2 Weeks -->
+            <div class="col-md-2">
+                <div class="btn-group navbar">
+                    <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                        2 weeks
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">4 weeks</a>
+                        </li>
+                        <li><a href="#">8 weeks</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Event Types
+        </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                <div class="panel-body">
+                                    <div class="btn-group-vertical events">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Milongas
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Drop-in Classes
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Series/Worskops
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Practicas
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Live Music
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Performances
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Areas
+        </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse in " role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <div class="btn-group-vertical events">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">East Bay
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Contro Costa
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Humboldt
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Marin
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Mendocino
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">Monterey
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">San Francisco
+                                            </label>
+                                        </div>
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">South Bay
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <a href="#myMapModal" data-toggle="modal"><img id="image" src="images/google_maps.jpg" alt=""></a>
+                <div class="modal fade" id="myMapModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                <h4 class="modal-title">Tango Events</h4>
+
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div id="map-canvas" class=""></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+            </div>
+            <div class="col-md-10">
+              <table class="table-bordered text-center">
+                <tr >
+                  <td class="col-md-1">Monday</td>
+                  <td class="col-md-1">Tuesday</td>
+                  <td class="col-md-1">Wednesday</td>
+                  <td class="col-md-1">Thursday</td>
+                  <td class="col-md-1">Friday</td>
+                  <td class="col-md-1">Satruday</td>
+                  <td class="col-md-1">Sunday</td>
+                </tr>
+                <tr>
+                  <td>
+                  <div >
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+                  <td>
+                  <div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+                  <td>
+                  <div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+                   <td>
+                  <div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, aliquam.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+                  <div class="bordertable">Lorem ipsum dolor.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas?</div>
+                  <div class="bordertable">Lorem ipsum.</div>
+                  <div class="bordertable">Lorem ipsum dolor sit.</div>
+                  </div>
+                  </td>
+
+                </tr>
+
+              </table>
+
+            </div>
+
+
+            <!-- JS -->
+            <script src="http://code.jquery.com/jquery.js"></script>
+            <script src="js/javascript.js"></script>
+
+</body>
+
+</html>
